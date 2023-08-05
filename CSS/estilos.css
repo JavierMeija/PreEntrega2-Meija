@@ -1,0 +1,131 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+}
+h1	{
+
+	color: green;
+	display: flex;
+	justify-content: center;
+}
+body{
+ background-color: black;
+ font-family: 'calibri';	
+
+}
+header{
+background-color: #77779d;
+display: flex;
+justify-content: center;
+
+}
+.logo{
+	width: 30%;
+	cursor: pointer;
+	margin: 5%;
+}
+li	{
+	display: inline-block;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+a{
+	text-decoration: none;
+	color: #563444;
+
+}
+p{
+color: #d9cc8c;
+font-size: 1rem;
+margin: 15%;
+align-content: space-between;
+}
+.ubicacion{
+	margin: 100%;
+}
+h2{
+	color: #fefefe;
+	text-align: center;
+}
+.logoInicio{
+	width: 10%;
+}
+.inicio{
+	width: 80%;
+}
+.container{
+	width: 80%;
+	background: black;
+	margin: auto;
+}
+.menu li{
+	display: inline-block;
+
+}
+.menu	{
+	float: right;
+}
+.top {
+	margin-top: 5%;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+.menu a:hover{
+	background: brown;
+	padding: 10%;
+}
+.col{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	margin: 5%;
+	}
+.col img{
+	width: 100%;
+}
+h3{
+	color: brown;
+}
+.row{
+	text-align: center;
+}
+.row img{
+	border-radius: 5%;
+}
+.text{
+	margin:0%;
+}
+.footer{
+	overflow: hidden;
+}
+.footer a{
+	color: green;
+	text-decoration: none;
+}
+.footer span {
+	float: left;
+	margin-top: 1%;
+}
+.footer a:hover{
+	background: brown;
+	padding: 1%;
+}
+.ubi{
+	margin: 0%;
+	display: grid;
+	place-content: center;
+}
+.mapa{
+	width: 100%;
+	margin-top: 20%;
+	border-radius: 10%;
+}
+.inicio {
+	border-radius: 10%;
+}
