@@ -15,7 +15,7 @@ body{
 
 }
 header{
-background-color: #77779d;
+background-color: white;
 display: flex;
 justify-content: center;
 
@@ -128,4 +128,18 @@ h3{
 }
 .inicio {
 	border-radius: 10%;
+}
+.fuentes
+{
+font-size: 1.5rem;
+padding: 2rem;
+text-transform: uppercase;
+color: white;
+}
+fuentes li a:hover{
+	background-color: green;
+	color: white;
+}
+nav.navbar {
+    background-color: #FFFFFF;
 }
